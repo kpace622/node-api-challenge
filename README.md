@@ -40,13 +40,25 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Express helps to organize code by creating route handlers for the requests.
+Express also allows you to utilize middleware, mini functions that you can build or grab pre built that help manage code.
+
 - [ ] Describe Middleware?
+
+Middleware is just a list of different functions that are invoked in the order they are listed. Its sorta like a middle man, it takes the code and does ‘something’ with it. That something can be pretty much whatever you specify it to be.
+
 
 - [ ] Describe a Resource?
 
+A resource can be anything. It is whatever object the code is currently working with.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+It can return status codes such as (200) or it can return whatever the code is calling for.
+
 - [ ] How can we partition our application into sub-applications?
+
+By using Routers. We can specify anything from this url is going to this application while anything with this other url will go to this other application. It helps to organize our code.
 
 ## Minimum Viable Product
 

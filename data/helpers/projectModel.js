@@ -19,7 +19,7 @@ function get(id) {
 
     return Promise.all(promises).then(function(results) {
       let [project, actions] = results;
-
+      console.log(project)
       if (project) {
         project.actions = actions;
 
