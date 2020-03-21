@@ -2,10 +2,12 @@ const express = require('express');
 const Projects = require('./data/helpers/projectModel');
 const Actions = require('./data/helpers/actionModel');
 const Map = require('./data/helpers/mappers');
+const cors = require('cors');
 
 const server = express();
 
 server.use(express.json());
+server.use(cors())
 server.use(logger);
 
 
